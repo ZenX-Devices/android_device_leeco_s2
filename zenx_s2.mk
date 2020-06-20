@@ -18,7 +18,7 @@
 $(call inherit-product, device/leeco/s2/full_s2.mk)
 
 # Inherit some common Zenx stuff.
-ZENX_BUILD_TYPE := OFFICIAL 
+ZENX_BUILD_TYPE := Official
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_GAPPS_ARCH := arm64
 $(call inherit-product, vendor/zenx/config/common_full_phone.mk)
