@@ -562,13 +562,12 @@
     <string name="config_gpu_clock_path" translatable="false">/sys/class/kgsl/kgsl-3d0/gpuclk</string>
     <string name="config_gpu_busy_path" translatable="false">/sys/class/kgsl/kgsl-3d0/gpubusy</string>
     <string name="config_battery_level_path" translatable="false">/sys/class/power_supply/battery/capacity</string>
-    <string name="config_device_parts_package_name" translatable="false">org.lineageos.settings</string>
-    <string name="config_device_parts_package_activity" translatable="false">org.lineageos.settings.device.DOZE_SETTINGS</string>
 
     <!-- Smart charge sysfs node and value for suspend/resume charging-->
     <string name="config_SmartChargingSysfsNode" translatable="false">/sys/class/power_supply/battery/input_suspend</string>
     <string name="config_SmartChargingSupspendValue" translatable="false">1</string>
     <string name="config_SmartChargingResumeValue" translatable="false">0</string>
+    <bool name="config_smartChargingAvailable">true</bool>
 
     <!-- Maximum number of supported users -->
     <integer name="config_multiuserMaximumUsers">4</integer>
